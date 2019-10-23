@@ -13,6 +13,11 @@
 -webkit-box-sizing: border-box;
 }
 
+body{
+background-color: var(--color5);
+margin: 0;
+}
+
 .lista-nav{
     display: flex;
     flex-direction: row;
@@ -27,6 +32,8 @@ nav{
     color:var(--color1);
     font-size: 15pt;
     font-family: 'Raleway', sans-serif;
+    padding: 30px;
+    border-bottom: solid var(--color3) 10px;
 }
 
 .galeria{
@@ -36,7 +43,8 @@ nav{
     background-color: var(--color3);
     width: 100%;
     flex-wrap: wrap;
-  
+    padding: 70px;
+    margin: auto;
 }
 
 .button {
@@ -54,6 +62,23 @@ nav{
     max-height: 300px;
 }
 
+.somos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 50px;   
+}
+
+.somos img{
+    width: 20%;
+
+}
+.somos div{
+    justify-content: center;
+    align-self: center;
+
+}
+
 #logo-nav{
     width: 200px;   
 }
@@ -62,13 +87,16 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 main img{
+    display: flex;
     z-index: 10;
     width: 100%;
 }
 
 h1{
+    display: flex;
     z-index: 0;
 }
