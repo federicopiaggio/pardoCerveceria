@@ -17,8 +17,13 @@
 body{
 background-color: var(--color5);
 margin: 0;
-
 font-family: 'Raleway', sans-serif;
+}
+
+
+main h1{
+    position: absolute;
+
 }
 
 .lista-nav{
@@ -32,10 +37,14 @@ font-family: 'Raleway', sans-serif;
 
 nav{
     background-color: var(--color5);
-    color:var(--color1);
-    font-size: 15pt;
     padding-top: 20px;
     border-bottom: solid var(--color3) 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:var(--color1);
+    font-size: 15pt;
 }
 
 .gal-img{
@@ -111,12 +120,46 @@ nav{
     justify-content: center;
     align-self: center;
     background-color: whitesmoke;
-    height: 500px;
+    height: 400px;
     margin: 50px 0px 50px 50px;
     padding: 40px;
     text-justify: auto;
     line-height: 2em;
     font-size: 15pt;
+}
+
+.proceso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 70px; 
+    background-color: var(--color2);
+    /* color: whitesmoke; */
+}
+
+.proceso-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proceso-color{
+    
+    background-color: var(--color2);
+}
+
+.proceso img {
+    width: 500px;
+}
+
+.proceso-img{
+    margin: 30px;
+}
+
+.cartaCerveza{
+    background-color: var(--color3);
 }
 
 #logo-nav{
@@ -138,6 +181,22 @@ main img{
 
 h2{
     font-size: 30pt;
-    font-weight: 300;
+    font-weight: 500;
+    
+    margin-top: 40px;
 }
 
+h3{
+    font-size: 25pt;
+    font-weight: 300;
+    margin: auto;
+}
+
+.cartaComida{
+    display: inline-block;
+    text-align: center;
+
+}
+.cartaComida img{
+    width: 500px;
+}
